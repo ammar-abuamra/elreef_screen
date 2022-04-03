@@ -16,26 +16,23 @@ void selectcategory (BuildContext ctx){
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: ()=>selectcategory(context) ,
-      child: Container(
+    return Container(
 
-        padding:EdgeInsets.all(15),
-        child: Stack( children: [
-          Positioned(bottom:5 ,
-            child: Container(
-              width: 285,
+      padding:EdgeInsets.all(15),
+      child: Stack( children: [
+        Positioned(bottom:5 ,
+          child: Container(
+            width: 285,
 
-                color: Colors.black45,
-                child: Text(title,style: Theme.of(context).textTheme.title,)
-            ),
-          )
+              color: Colors.black45,
+              child: Text(title,style: Theme.of(context).textTheme.subtitle1,)
+          ),
+        )
 
-        ], ),
-        decoration: BoxDecoration(
-            image:DecorationImage(image: AssetImage(imageAsset,),
-            fit: BoxFit.fill)),
-      ),
+      ], ),
+      decoration: BoxDecoration(
+          image:DecorationImage(image: AssetImage(imageAsset,),
+          fit: BoxFit.fill)),
     );
   }
 }

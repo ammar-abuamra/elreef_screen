@@ -10,7 +10,7 @@ const CategoryD = const [
   Category(id: 'snm', title: 'وحبات السناكات', imageAsset: 'image/8.jpg'),
   Category(id: 'snc', title: 'سندويشات السناكات', imageAsset: 'image/6.jpg'),
   Category(id: 'mq', title: 'المقبلات', imageAsset: 'image/2.jpg'),
-  Category(id: 'lo', title: '1', imageAsset: 'image/2.jpg'),
+  Category(id: 'lo', title: 'المقبلات', imageAsset: 'image/2.jpg'),
 ];
 
 
